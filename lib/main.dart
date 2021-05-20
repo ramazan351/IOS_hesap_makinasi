@@ -54,17 +54,17 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                MyButton(
+                MyButton(txtColor: Colors.black87,
                   btnText: "AC",
                   btnColor: Colors.white38,
                   onPressed: () {},
                 ),
-                MyButton(
+                MyButton(txtColor: Colors.black87,
                   btnText: "+/-",
                   btnColor: Colors.white38,
                   onPressed: () {},
                 ),
-                MyButton(
+                MyButton(txtColor: Colors.black87, textFontSize: 35,
                     btnText: "%", btnColor: Colors.white38, onPressed: () {}),
                 MyButton(textFontSize: 40,
                   btnText: "÷",
