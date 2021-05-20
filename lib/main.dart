@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 MyButton(
                     btnText: "%", btnColor: Colors.white38, onPressed: () {}),
-                MyButton(
+                MyButton(textFontSize: 40,
                   btnText: "÷",
                   btnColor: Colors.orange,
                   onPressed: () {},
@@ -103,8 +103,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   btnText: "5",
                   onPressed: () {},
                 ),
-                MyButton(btnText: "6", onPressed: () {}),RaisedButton(onPressed: (){},child: Icon(Icons.add),),
-                MyButton(
+                MyButton(btnText: "6", onPressed: () {}),
+                MyButton(textFontSize: 70,
                   btnText: "-",
                   btnColor: Colors.orange,
                   onPressed: () {},
@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 MyButton(btnText: "3", onPressed: () {}),
 
-                MyButton(
+                MyButton(textFontSize: 40,
                   btnText: "+",
                   btnColor: Colors.orange,
                   onPressed: () {},
